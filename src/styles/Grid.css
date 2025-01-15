@@ -1,0 +1,54 @@
+/* .outer-grid {
+    display: grid;
+    position: relative;
+    gap: 10px;
+    place-items: center;
+    background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+    border-radius: 20px;
+    padding: 10px;
+    animation: pulse 2s infinite;
+  }
+  
+  .outer-cell {
+    background: radial-gradient(circle, #00f, #111);
+    border: 1px solid #222;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    animation: flicker 1.5s infinite;
+  } */
+  
+  .grid {
+    display: grid;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    padding: 10px;
+    /* background: #111; */
+    border: 1px solid #444;
+    /* border-radius: 15px; */
+    gap: 0;
+    /* box-shadow: 0 0 15px rgba(0, 0, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.5); */
+  }
+  
+  /* .grid:hover {
+    /* box-shadow: 0 0 25px rgba(0, 0, 255, 0.9), 0 0 50px rgba(0, 255, 255, 0.7); 
+  }*/
+  
+  /* Cell animation for sci-fi feel */
+  /* @keyframes flicker {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 15px rgba(0, 0, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 1), 0 0 50px rgba(0, 255, 255, 0.7);
+    }
+  }
+   */
