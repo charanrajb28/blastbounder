@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Cell from "./Cell";
-import { generateGridMatrix, createComplexPath } from "../utils/gridlogic";
+import { generateGridMatrix, createComplexPath } from "./gridLogic";
 import "../styles/Grid.css";
 
 const Grid = ({ rows, cols }) => {
